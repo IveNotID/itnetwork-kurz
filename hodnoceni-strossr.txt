@@ -1,0 +1,13 @@
+Ceníme práci na projektu! 🏆 Prohlédli jsme si kód a máme k němu následující poznámky:
+
+1. Pojmenování identifikátorů - Název metody pridatPojistence() by měl být v rozkazovacím tvaru -> pridejPojistence(). Vyhnul bych se názvu start() - ideálně bych tuto metodu rozdělil na dvě zobrazNabidku() a zpracujVolbu(). Proměnnou vstupMenu bych nazval např. volba nebo akce a nezkracoval název proměnné telCislo.
+2. Dodržení principů SRP a SoC - Třída Aplikace v sobě obsahuje interakci s uživatelem i správu dat. Interakce s uživatelem patří do hl. souboru nebo by se pro ni mohla vyčlenit samostatná třída, např. UzivatelskeRozhrani.
+3. Vhodný výběr datových typů - Telefonní číslo bychom mohli ukládat jako String a umožnit tak zadání mezinárodní předvolby.
+4. Formátování kódu - Ok.
+5. Duplicitní kód a nekonečné cykly - V kódu se opakuje načítání jména a příjmení u přidání pojištěnce a vyhledávání pojištěnce. 
+6. Validace vstupních dat - Jméno a příjmení není validováno.
+7. Logičnost a složitost - Pro zpracování volby by stačilo použít jeden while cyklus.
+8. Komentáře - Chybí.
+9. Celkové hodnocení - Aplikace splňuje zadání a pro začínajícího programátora je to dobrý kus práce. Největším problémem je míchání uživatelské interakce s logikou v jedné třídě a pojmenování některých metod a proměnných. Doplnil bych také validace vstupů pro jméno a věk a dokumentační komentáře.
+
+Doporučujeme případné výtky v kódu opravit, abyste jej mohli pak prezentovat budoucímu zaměstnavateli v co nejlepší kvalitě. Pokud byste potřebovali s čímkoli pomoci, naplánujte si s námi konzultaci, rádi vám poradíme!
